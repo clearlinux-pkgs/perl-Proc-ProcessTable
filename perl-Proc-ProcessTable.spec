@@ -4,7 +4,7 @@
 #
 Name     : perl-Proc-ProcessTable
 Version  : 0.55
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.55.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.55.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libp/libproc-processtable-perl/libproc-processtable-perl_0.55-1.debian.tar.xz
