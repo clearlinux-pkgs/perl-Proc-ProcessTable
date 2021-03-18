@@ -4,7 +4,7 @@
 #
 Name     : perl-Proc-ProcessTable
 Version  : 0.59
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.59.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.59.tar.gz
 Source1  : http://cdn-fastly.deb.debian.org/debian/pool/main/libp/libproc-processtable-perl/libproc-processtable-perl_0.59-2.debian.tar.xz
@@ -110,9 +110,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Proc/Killall.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Proc/Killfam.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Proc/ProcessTable.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Proc/ProcessTable/Process.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/Proc/ProcessTable/Process/autosplit.ix
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/Proc/ProcessTable/ProcessTable.so
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/Killall.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/Killfam.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/ProcessTable.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/ProcessTable/Process.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/Proc/ProcessTable/Process/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/Proc/ProcessTable/ProcessTable.so
