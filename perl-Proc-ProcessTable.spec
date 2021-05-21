@@ -110,9 +110,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/Killall.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/Killfam.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/ProcessTable.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Proc/ProcessTable/Process.pm
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/Proc/ProcessTable/Process/autosplit.ix
-/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/Proc/ProcessTable/ProcessTable.so
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Proc/Killall.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Proc/Killfam.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Proc/ProcessTable.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Proc/ProcessTable/Process.pm
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Proc/ProcessTable/Process/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Proc/ProcessTable/ProcessTable.so
