@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-Proc-ProcessTable
-Version  : 0.635
-Release  : 21
-URL      : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.635.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.635.tar.gz
+Version  : 0.636
+Release  : 22
+URL      : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.636.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.636.tar.gz
 Source1  : http://cdn-fastly.deb.debian.org/debian/pool/main/libp/libproc-processtable-perl/libproc-processtable-perl_0.59-2.debian.tar.xz
 Summary  : 'Perl extension to access the unix process table'
 Group    : Development/Tools
@@ -57,14 +57,14 @@ perl components for the perl-Proc-ProcessTable package.
 
 
 %prep
-%setup -q -n Proc-ProcessTable-0.635
+%setup -q -n Proc-ProcessTable-0.636
 cd %{_builddir}
 tar xf %{_sourcedir}/libproc-processtable-perl_0.59-2.debian.tar.xz
-cd %{_builddir}/Proc-ProcessTable-0.635
+cd %{_builddir}/Proc-ProcessTable-0.636
 mkdir -p deblicense/
-cp -r %{_builddir}/debian/* %{_builddir}/Proc-ProcessTable-0.635/deblicense/
+cp -r %{_builddir}/debian/* %{_builddir}/Proc-ProcessTable-0.636/deblicense/
 pushd ..
-cp -a Proc-ProcessTable-0.635 buildavx2
+cp -a Proc-ProcessTable-0.636 buildavx2
 popd
 
 %build
