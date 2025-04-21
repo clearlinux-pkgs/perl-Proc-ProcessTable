@@ -7,7 +7,7 @@
 #
 Name     : perl-Proc-ProcessTable
 Version  : 0.636
-Release  : 27
+Release  : 28
 URL      : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.636.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JW/JWB/Proc-ProcessTable-0.636.tar.gz
 Source1  : http://cdn-fastly.deb.debian.org/debian/pool/main/libp/libproc-processtable-perl/libproc-processtable-perl_0.59-2.debian.tar.xz
